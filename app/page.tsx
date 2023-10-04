@@ -18,7 +18,7 @@ export default function Home() {
             Arjun Anand Pramod
           </h3>
           <p className='text-gray-500 dark:text-gray-300 text-center'>
-            Hi my name is Arjun, a Final Year Student at NTU studying Computer Engineering
+            Final Year Student at NTU studying Computer Engineering
           </p>
 
           <div className='flex space-x-5 pt-6'>
@@ -65,6 +65,25 @@ export default function Home() {
 
           <p>
             In my free time I like to play the guitar, go for runs, play chess, and try out new places to eat.
+          </p>
+        </div>
+      </div>
+      <div>
+        <h3 className='pt-4 pb-2 text-2xl font-bold leading-8 tracking-tight'>
+            Skills: 
+        </h3>
+        <div className='prose max-w-none prose-lg dark:prose-invert xl:col-span-3' style={{lineHeight: 1}}>
+          <p>
+            <b>Programming Languages: </b> Python, C++, JavaScript, R, SQL, C
+          </p>
+          <p>
+            <b>Tools and Frameworks: </b> TensorFlow, PyTorch, Pandas, Scikit-Learn, React, Tableau, Next, Dash, Git, AWS, Linux
+          </p>
+          <p>
+            <b>Mathematics: </b> Statistics, Stochastic Processes, Calculus, Linear Algebra, Probability
+          </p>
+          <p>
+            <b>Others: </b> Explainable AI, Natural Language Processing, Quantitative Modelling, Neural Netowrks
           </p>
         </div>
       </div>
